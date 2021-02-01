@@ -3,4 +3,4 @@ Respository for the HTML and CSS practical course
 
 In this course I made a Google Clone:
 
-<img src="https://i.ibb.co/wBmyBMg/1er-google-clone.png" alt="Google Clone image"/>
+<img src="https://i.ibb.co/XSzxVn8/2nd-google-clone-version.png" alt="Google Clone image"/>
