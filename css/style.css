@@ -12,12 +12,19 @@ html {
 :root {
     --header-text-font-size: 1.3rem;
     --main-font-size: 1.6rem;
+    --main-bottom-font-size: 1.3rem;
     --footer-text-font-size: 1.4rem;
 }
 /*SHARED*/
 .fa-th {
     color: grey;
     font-size: 2rem;
+}
+.fa-search {
+    color: grey;
+    font-size: 1.6rem;
+    position: relative;
+    left: 3rem;
 }
 .fa-th:hover {
     color: black;
@@ -56,9 +63,61 @@ html {
     justify-content: center;
     align-items: center;
 }
+.google_logo {
+    position: relative;
+    left: 13rem;
+    bottom: 3rem;
+}
 .main-content-container {
     position: relative;
-    bottom: 12rem;
+    bottom: 9rem;
+}
+.main-search {
+    border-radius: 2.4rem;
+    border: 1px solid #dfe1e5;
+    height: 4.4rem;
+    min-width: 35rem;
+    width: 50rem;
+}
+.mic-image {
+    position: relative;
+    right: 3.7rem;
+    top: 1rem;
+}
+.main-buttons-container {
+    padding-top: 1.8rem;
+}
+.main-button {
+    background-color: #f8f9fa;
+    border: none;
+    color: #3c4043;
+    line-height: 2.7rem;
+    height: 3.6rem;
+    border-radius: 0.5rem;
+    padding: 0 1.6rem;
+    font-size: var(--footer-text-font-size);
+    position: relative;
+    margin-left: 1.2rem;
+    left: 10rem;
+    top: 1rem;
+}
+.main-button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+.main-bottom {
+    font-size: var(--main-bottom-font-size);
+    position: relative;
+    top: 3rem;
+    left: 15rem;
+}
+.main-bottom a{
+    text-decoration: none;
+    color: #1a0dab;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.main-bottom a:hover {
+    text-decoration: underline;
 }
 /*FOOTER*/
 .footer {
