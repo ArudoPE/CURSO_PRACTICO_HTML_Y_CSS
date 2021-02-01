@@ -16,15 +16,13 @@ html {
     --footer-text-font-size: 1.4rem;
 }
 /*SHARED*/
+a,
+.main-button {
+    cursor: pointer;
+}
 .fa-th {
     color: grey;
     font-size: 2rem;
-}
-.fa-search {
-    color: grey;
-    font-size: 1.6rem;
-    position: relative;
-    left: 3rem;
 }
 .fa-th:hover {
     color: black;
@@ -72,18 +70,34 @@ html {
     position: relative;
     bottom: 9rem;
 }
-.main-search {
+.main-search-container {
     border-radius: 2.4rem;
-    border: 1px solid #dfe1e5;
-    height: 4.4rem;
     min-width: 35rem;
     width: 50rem;
+    border: 1px solid #dfe1e5;
+    height: 4.4rem;
+    justify-content: space-between;
+}
+.main-search-container:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe13500;
+}
+.fa-search {
+    color: grey;
+    font-size: 1.6rem;
+    position: relative;
+    left: 1rem;
+    top: 1.2rem;
+}
+.main-search {
+    border: none;
     outline: none;
+    width: 37rem;
 }
 .mic-image {
     position: relative;
-    right: 3.7rem;
-    top: 1rem;
+    right: 1rem;
+    top: 0.9rem;
 }
 .main-buttons-container {
     padding-top: 1.8rem;
@@ -142,4 +156,8 @@ html {
 }
 .bottom-footer-right {
     margin-right: 27px;
+}
+/*DARK MODE*/
+.dark-body {
+    background-color: black;
 }
