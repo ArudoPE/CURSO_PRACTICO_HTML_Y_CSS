@@ -78,6 +78,7 @@ html {
     height: 4.4rem;
     min-width: 35rem;
     width: 50rem;
+    outline: none;
 }
 .mic-image {
     position: relative;
@@ -142,4 +143,3 @@ html {
 .bottom-footer-right {
     margin-right: 27px;
 }
-/*MEDIA QUERIES (MOBILE FIRST)*/
